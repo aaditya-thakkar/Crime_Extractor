@@ -32,7 +32,7 @@ pip install git+https://github.com/HazyResearch/numbskull@master
 
 After installing, just run:
 ```
-./run.sh
+./run_jupyter.sh
 ```
 
 Once you run the script, Jupyter notebook will start running on `localhost:8888`, go to `localhost:8888` and create a new python2 notebook. A jupyter shell will be opened and there you can work on with your further code and compiling and running it.
@@ -42,7 +42,7 @@ Once you run the script, Jupyter notebook will start running on `localhost:8888`
  
 * The articles on which we are working are stored at /snorkel/tutorials/intro/articles.tsv. These articles are converted to .tsv files, which means they are stored as tab separated  values of id and document text. This crime extractor parses and generates corpus from .tsv files. Hence it is mandatory to first convert the articles text files into a tab separated values file.
 
-* In the snorkel root directory shown in localhost:8888, there’s a file named final_code.py, which contains the whole logic of the code. Click on the file and the code will appear in a python jupyter shell.
+* In the snorkel root directory shown in localhost:8888, there’s a file named extractor.py, which contains the whole logic of the code. Click on the file and the code will appear in a python jupyter shell.
 
 * After that, we can run the code by pressing “Play” button in the taskbar and pause/stop the execution too.
 
